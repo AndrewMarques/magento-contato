@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hibrido_Contato>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Hibrido_Contato>
+    </modules>
+</config>

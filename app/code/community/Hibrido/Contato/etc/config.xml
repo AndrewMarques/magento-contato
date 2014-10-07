@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hibrido_Contato>
+            <vesion>0.0.1</vesion>
+        </Hibrido_Contato>
+    </modules>
+    <global>
+        <blocks>
+            <contato>
+                <class>Hibrido_Contato_Block</class>
+            </contato>
+        </blocks>
+        <template>
+            <email>
+                <hibrido_contato module="contato" translate="label">
+                    <label>Contato</label>
+                    <file>hibrido/contato/contato.html</file>
+                    <type>html</type>
+                </hibrido_contato>
+            </email>
+        </template>
+        <helpers>
+            <contato>
+                <class>Hibrido_Contato_Helper</class>
+            </contato>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <contato>
+                    <file>contato.xml</file>
+                </contato>
+            </updates>
+        </layout>
+        <routers>
+            <contato>
+                <use>standard</use>
+                <args>
+                    <module>Hibrido_Contato</module>
+                    <frontName>contato</frontName>
+                </args>
+            </contato>
+        </routers>
+    </frontend>
+</config>

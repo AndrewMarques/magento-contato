@@ -1,0 +1,6 @@
+app/code/community/Hibrido/Contato/
+app/design/frontend/base/default/layout/contato.xml
+app/design/frontend/base/default/template/hibrido/contato/
+app/etc/modules/Hibrido_Contato.xml
+app/locale/pt_BR/template/email/hibrido/contato/
+js/contato/

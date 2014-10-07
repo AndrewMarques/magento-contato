@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <block type="core/template" name="hibrido_contato" template="hibrido/contato/url.phtml" />
+            <action method="addJs"><script>contato/main.js</script></action>
+        </reference>
+    </default>
+</layout>
