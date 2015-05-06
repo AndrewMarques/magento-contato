@@ -1,0 +1,7 @@
+{
+   "name": "hibrido/magento-contato",
+   "type": "magento-module",
+   "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+   }
+}
